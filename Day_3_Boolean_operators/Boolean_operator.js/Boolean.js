@@ -4,10 +4,10 @@ let a=2 ,b=3
 console.log(a>b)//false
 console.log(a<b)//true
 
-//Truthy value
-// All numbers(positive and negative) are truthy except zero
-// All strings are truthy except an empty string ('')
-// The boolean true
+/*Truthy value
+All numbers(positive and negative) are truthy except zero
+All strings are truthy except an empty string ('')
+The boolean true */
 
 //Falsy values
 // 0
