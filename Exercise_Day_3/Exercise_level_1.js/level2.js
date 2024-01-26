@@ -1,5 +1,4 @@
                 ////Level 2////
-
 const prompt =require('prompt-sync')()         
 
 //Q1: Write a script that prompt the user to enter 
@@ -23,7 +22,6 @@ console.log("Perimeter of triangle: " +perimeter) //11
 
 //Q3: Get length and width using prompt and calculate an area of rectangle (area = length x width and 
 //the perimeter of rectangle (perimeter = 2 x (length + width))
-
 let length=parseFloat(prompt("Enter the length: "))  //5
 let width=parseFloat(prompt("Enter the height: "))  //4
 let areaa=length * width
@@ -128,12 +126,10 @@ let year=100-age
 let remainingseconds=year* 365 * 24 * 60 *60
 console.log(remainingseconds)  //630720000
 
-
 /*Q15: Create a human readable time format using the Date time object
 YYYY-MM-DD HH:mm
 DD-MM-YYYY HH:mm
 DD/MM/YYYY HH:mm*/
-
 let yearr = new Date().getFullYear()
 let month = new Date().getMonth()+1
 let date= new Date().getDate()
@@ -142,24 +138,3 @@ let min=new Date().getMinutes()
 console.log(`${yearr}-${month}-${date} ${hourss}:${min}`) //2024-1-25 17:14
 console.log(`${date}-${month}-${year} ${hourss}:${min}`)  //25-1-2024 17:16
 console.log(`${date}/${month}/${year} ${hourss}:${min}`)  //25/1/2024 17:16
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
