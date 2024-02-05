@@ -1,9 +1,10 @@
-//Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a for loop or for of loop and print out the items
-//This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
-const fullStack = [ ['HTML', 'CSS', 'JS', 'React'], ['Node', 'Express', 'MongoDB']]
-
-for (let i = 0; i < fullStack.length; i++) {
-  for (let j = 0; j < fullStack[i].length; j++) {
-    console.log(fullStack[i][j]);
+//Find the country containing the hightest number of characters in the countries array
+let countries =["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+let newarray =countries[0]
+for(let i=1; i<countries.length;i++){
+  if(countries[i].length>newarray.length){
+    newarray =countries[i]
   }
-}
+
+  }
+console.log(newarray)  //ETHIOPIA
